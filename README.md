@@ -205,11 +205,7 @@ Synchronous direct invocation couples the two Lambdas. If the processor is slow 
 Transaction records are write-heavy, read by `card_id` or `transaction_id`, and don't require joins. DynamoDB's partition key model is purpose-built for this access pattern.
 
 **Why Terraform over CDK/SAM?**  
-<<<<<<< HEAD
-Xal Digital explicitly requires Well-Architected Framework validation and IaC. Terraform is cloud-agnostic, widely adopted in enterprise AWS environments, and forces explicit resource definition — no magic abstractions hiding configuration.
-=======
 Terraform is cloud-agnostic, widely adopted in enterprise AWS environments, and forces explicit resource definition — no magic abstractions hiding configuration.
->>>>>>> 47b4d59fa4ed945930b7b06b1e4aa740bf236516
 
 ---
 
