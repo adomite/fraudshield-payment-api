@@ -11,7 +11,7 @@
  I previously have migrated fraud prevention systems from IBM Mainframe to Actimize IFM, validating 500 TPS under stress, and maintaining ≤1.6s SLA on real-time authorization APIs — I wanted to translate that domain knowledge into a cloud-native implementation using AWS serverless and modern DevOps tooling.
 =======
 I previously have migrated fraud prevention systems from IBM Mainframe to Actimize IFM, validating 500 TPS under stress, and maintaining ≤1.6s SLA on real-time authorization APIs — I wanted to translate that domain knowledge into a cloud-native implementation using AWS serverless and modern DevOps tooling.
->>>>>>> 47b4d59fa4ed945930b7b06b1e4aa740bf236516
+
 
 This is not a tutorial project. Every architectural decision here maps to a real problem I've solved in production.
 
