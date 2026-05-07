@@ -3,6 +3,9 @@
 ## The Problem This Solves
 ## this is a test done on msi BRANCH feat/receiver-wallet-screening
 
+
+## this is a change from TP lapt on feat/audit-log-endpoint
+
 A payment transaction needs a fraud decision in under 1.6 seconds — from the moment the card is swiped to the moment the merchant terminal shows "approved" or "declined." That window includes network latency, authentication, and the fraud engine itself.
 
 This constraint is not theoretical. It comes from a production SLA I maintained for 115,000+ daily transactions on the Actimize IFM platform at Citibanamex. Any architecture that can't reason about that window first isn't worth building.
