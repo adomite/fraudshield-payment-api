@@ -203,3 +203,31 @@ This removes all AWS resources created by the project. Always run this when you'
 | CloudWatch | 5 GB log data/month | Well within for testing |
 
 Running this project for testing purposes should cost $0 if you're within the first 12 months of your AWS account and you destroy resources when not in use.
+
+
+
+## Free Tier limits reference
+
+| Service | Free Tier | FraudShield usage |
+|---|---|---|
+| Lambda | 1M requests/month, 400k GB-seconds | Well within for testing |
+| API Gateway | 1M API calls/month (12 months) | Well within for testing |
+| SQS | 1M requests/month | Well within for testing |
+| DynamoDB | 25 GB storage, 25 RCU/WCU | Well within for testing |
+| CloudWatch | 5 GB log data/month | Well within for testing |
+
+Running this project for testing purposes should cost $0 if you're within the first 12 months of your AWS account and you destroy resources when not in use.
+
+
+
+## Free Tier limits reference
+
+| Service | Free Tier | FraudShield usage |
+|---|---|---|
+| Lambda | 1M requests/month, 400k GB-seconds | Well within for testing |
+| API Gateway | 1M API calls/month (12 months) | Well within for testing |
+| SQS | 1M requests/month | Well within for testing |
+| DynamoDB | 25 GB storage, 25 RCU/WCU | Well within for testing |
+| CloudWatch | 5 GB log data/month | Well within for testing |
+
+Running this project for testing purposes should cost $0 if you're within the first 12 months of your AWS account and you destroy resources when not in use.
