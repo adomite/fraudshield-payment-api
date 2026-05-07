@@ -1,22 +1,23 @@
 # Python
 __pycache__/
 *.py[cod]
+*.class
 venv/
+.venv/
+env/
 .env
 
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.backup
-*.tfvars
-.terraform.lock.hcl
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 
-# AWS credentials - NEVER commit these
-.aws/
-credentials
+# Docker
+.dockerignore
 
-# VS Code
+# IDEs
 .vscode/
+.idea/
 
 # OS
 .DS_Store
