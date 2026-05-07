@@ -262,6 +262,7 @@ API docs available at `http://localhost:8000/docs`
 ## About This Project
 
 Built by [Adolfo Mite](https://linkedin.com/in/mitelite) — Fraud Prevention Tech Lead with 14 years building real-time risk infrastructure at Banamex/Citibanamex.
+[linkedin.com/in/mitelite](https://www.linkedin.com/in/mitelite)
 
 This project translates that experience into code: specifically to explore how traditional fraud prevention patterns extend (and where they break) when applied to stablecoin payment flows.
 
