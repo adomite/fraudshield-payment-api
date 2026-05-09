@@ -139,7 +139,7 @@ def rule_high_risk_mcc(event: PaymentEvent) -> Tuple[int, TriggeredRule | None]:
     if event.merchant.mcc not in HIGH_RISK_MCC:
         return 0, None
 
-    score = 30
+    score = 45
     return score, TriggeredRule(
         rule="HIGH_RISK_MCC",
         severity=RuleSeverity.HIGH,
